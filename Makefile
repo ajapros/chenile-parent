@@ -17,7 +17,6 @@
 
 # export version := $(shell git describe --tag --abbrev=0)
 export version := $(shell cat chenile-version.txt)
-# export version := 1.2.4
 .DEFAULT_GOAL := help
 
 ## build: Build the executable with the version extracted from GIT
@@ -40,6 +39,10 @@ javadoc:
 test-javadoc:
 	mvn  -Drevision=$(version) javadoc:test-aggregate
 
+## javadoc-chenile: Build the aggregated javadocs across all chenile projects
+.PHONY: javadoc-chenile
+javadoc-chenile:
+	mvn -Drevision=$(version) -DgenerateAggregateJavadoc=true javadoc:aggregate
 	
 ## prepare-deploy: Prepares the jars for deployment into Maven central. Set passphrase variable to secrets
 .PHONY: prepare-deploy

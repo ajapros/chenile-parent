@@ -19,15 +19,15 @@
     <properties>
         <java.version>17</java.version>
 
-				<!-- Standardized versions of all Chenile dependencies -->
+        <!-- Standardized versions of all Chenile dependencies -->
         <revision>${chenile.parent.version}</revision>
-				<chenile.parent.version>2.0.1</chenile.parent.version>
-				<chenile.core.version>2.0.1</chenile.core.version>
-				<chenile.others.version>2.0.1</chenile.others.version>
-				<chenile.mqtt.version>2.0.1</chenile.mqtt.version>
-				<chenile.bdd.version>2.0.1</chenile.bdd.version>
-				<chenile.security.version>2.0.1</chenile.security.version>
-				<chenile.query.workflow.blueprints.version>2.0.1</chenile.query.workflow.blueprints.version>
+        <chenile.parent.version>2.0.3</chenile.parent.version>
+        <chenile.core.version>2.0.3</chenile.core.version>
+        <chenile.others.version>2.0.3</chenile.others.version>
+        <chenile.mqtt.version>2.0.3</chenile.mqtt.version>
+        <chenile.bdd.version>2.0.3</chenile.bdd.version>
+        <chenile.security.version>2.0.3</chenile.security.version>
+        <chenile.query.workflow.blueprints.version>2.0.3</chenile.query.workflow.blueprints.version>
 
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <cucumber.version>4.3.1</cucumber.version>
@@ -49,6 +49,145 @@
             <url>http://www.opensource.org/licenses/mit-license.php</url>
         </license>
     </licenses>
+    <dependencies>
+        <dependency>
+            <groupId>org.chenile</groupId>
+            <artifactId>chenile-filewatch</artifactId>
+            <version>${chenile.others.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.chenile</groupId>
+            <artifactId>chenile-scheduler</artifactId>
+            <version>${chenile.others.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.chenile</groupId>
+            <artifactId>chenile-http</artifactId>
+            <version>${chenile.core.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.chenile</groupId>
+            <artifactId>chenile-cache</artifactId>
+            <version>${chenile.others.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.chenile</groupId>
+            <artifactId>chenile-mqtt</artifactId>
+            <version>${chenile.mqtt.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.chenile</groupId>
+            <artifactId>jpa-utils</artifactId>
+            <version>${chenile.core.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.chenile</groupId>
+            <artifactId>chenile-security-api</artifactId>
+            <version>${chenile.security.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.chenile.bdd</groupId>
+            <artifactId>it-cucumber-utils</artifactId>
+            <version>${chenile.bdd.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.chenile.bdd</groupId>
+            <artifactId>it-cucumber-sec-utils</artifactId>
+            <version>${chenile.bdd.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.chenile</groupId>
+            <artifactId>chenile-proxy</artifactId>
+            <version>${chenile.core.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.chenile</groupId>
+            <artifactId>chenile-core</artifactId>
+            <version>${chenile.core.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.chenile</groupId>
+            <artifactId>chenile-base</artifactId>
+            <version>${chenile.core.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.chenile</groupId>
+            <artifactId>security-interceptor</artifactId>
+            <version>${chenile.security.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.chenile</groupId>
+            <artifactId>cucumber-utils</artifactId>
+            <version>${chenile.core.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.chenile</groupId>
+            <artifactId>cucumber-sec-utils</artifactId>
+            <version>${chenile.security.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.chenile</groupId>
+            <artifactId>cucumber-mqtt-utils</artifactId>
+            <version>${chenile.mqtt.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.chenile</groupId>
+            <artifactId>chenile-security</artifactId>
+            <version>${chenile.security.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.chenile</groupId>
+            <artifactId>stm</artifactId>
+            <version>${chenile.core.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.chenile</groupId>
+            <artifactId>owiz</artifactId>
+            <version>${chenile.core.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.chenile</groupId>
+            <artifactId>utils</artifactId>
+            <version>${chenile.core.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.chenile</groupId>
+            <artifactId>workflow-api</artifactId>
+            <version>${chenile.query.workflow.blueprints.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.chenile</groupId>
+            <artifactId>workflow-service</artifactId>
+            <version>${chenile.query.workflow.blueprints.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.chenile</groupId>
+            <artifactId>query-api</artifactId>
+            <version>${chenile.query.workflow.blueprints.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.chenile</groupId>
+            <artifactId>chenile-query-service</artifactId>
+            <version>${chenile.query.workflow.blueprints.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.chenile</groupId>
+            <artifactId>chenile-query-controller</artifactId>
+            <version>${chenile.query.workflow.blueprints.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.chenile</groupId>
+            <artifactId>cloud-edge-switch</artifactId>
+            <version>${chenile.mqtt.version}</version>
+        </dependency>
+    </dependencies>
     <dependencyManagement>
         <dependencies>
             <dependency>
@@ -183,11 +322,6 @@
                 <version>${chenile.query.workflow.blueprints.version}</version>
             </dependency>
 
-            <dependency>
-                <groupId>org.chenile</groupId>
-                <artifactId>query-service</artifactId>
-                <version>${chenile.query.workflow.blueprints.version}</version>
-            </dependency>
 
             <dependency>
                 <groupId>org.chenile</groupId>
@@ -289,16 +423,16 @@
                 <version>${wire.mock.version}</version>
                 <scope>test</scope>
             </dependency>
-					<dependency>
-							<groupId>io.rest-assured</groupId>
-							<artifactId>rest-assured</artifactId>
-							<version>${rest.assured.version}</version>
-					</dependency>
-					<dependency>
-							<groupId>io.rest-assured</groupId>
-							<artifactId>json-path</artifactId>
-							<version>${rest.assured.version}</version>
-					</dependency>
+            <dependency>
+                <groupId>io.rest-assured</groupId>
+                <artifactId>rest-assured</artifactId>
+                <version>${rest.assured.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>io.rest-assured</groupId>
+                <artifactId>json-path</artifactId>
+                <version>${rest.assured.version}</version>
+            </dependency>
         </dependencies>
 
     </dependencyManagement>
@@ -341,70 +475,6 @@
                 <version>2.5.2</version>
                 <configuration>
                     <localCheckout>true</localCheckout> <!-- must be true -->
-                </configuration>
-            </plugin>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-javadoc-plugin</artifactId>
-                <configuration>
-                    <additionalOptions>
-                        <additionalOption>-Xdoclint:none</additionalOption>
-                    </additionalOptions>
-                    <failOnError>false</failOnError>
-                    <stylesheetfile>site-resources/styles-new.css</stylesheetfile>
-                    <top>
-                        <![CDATA[<h2><a href='https://chenile.org'>Chenile Framework Javadocs</a></h2>]]>
-                    </top>
-                    <bottom>
-                        <![CDATA[Generated from Source. <a href="https://chenile.org">Chenile<a>]]>
-                    </bottom>
-                    <links>
-                        <link>
-                            https://docs.spring.io/spring-framework/docs/current/javadoc-api/
-                        </link>
-                        <link>
-                            https://jakarta.ee/specifications/platform/9/apidocs/
-                        </link>
-                        <link>
-                            https://javadoc.io/doc/com.fasterxml.jackson.core/jackson-databind/2.3.1/
-                        </link>
-                        <link>
-                            https://javadoc.io/doc/org.apache.maven/maven-core/latest/
-                        </link>
-                    </links>
-                    <show>private</show>
-                    <groups>
-                        <group>
-                            <title>Core Packages</title>
-                            <packages>
-                                org.chenile.base*:org.chenile.core*:org.chenile.http*:org.chenile.proxy*:org.chenile.configuration.core:org.chenile.configuration.proxy:org.chenile.configuration.http:org.chenile.configuration.controller
-                            </packages>
-                        </group>
-                        <group>
-                            <title>MQTT</title>
-                            <packages>
-                                org.chenile.mqtt*:org.chenile.cloudedgeswitch*:org.chenile.configuration.mqtt:org.chenile.configuration.cloudedgeswitch
-                            </packages>
-                        </group>
-                        <group>
-                            <title>STM/OWIZ/Workflow</title>
-                            <packages>
-                                org.chenile.owiz*:org.chenile.stm*:org.chenile.ognl:org.chenile.workflow*:org.chenile.configuration.workflow
-                            </packages>
-                        </group>
-                        <group>
-                            <title>Testing</title>
-                            <packages>org.chenile.cucumber*:org.chenile.testutils*:org.chenile.security.test</packages>
-                        </group>
-                        <group>
-                            <title>Query</title>
-                            <packages>org.chenile.query*:org.chenile.configuration.query.service</packages>
-                        </group>
-                        <group>
-                            <title>Others</title>
-                            <packages>org.chenile.*:org.chenile.configuration.*</packages>
-                        </group>
-                    </groups>
                 </configuration>
             </plugin>
             <plugin>
@@ -511,6 +581,96 @@
                             <publishingServerId>central</publishingServerId>
                             <tokenAuth>true</tokenAuth>
                             <autoPublish>true</autoPublish>
+                        </configuration>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
+        <profile>
+            <!-- this profile is used only for generating aggregate javadocs. Needs to be activated by generateAggregateJavadoc=true.
+            Please see the Makefile for javadoc-chenile -->
+            <id>generate-aggregate-javadoc</id>
+            <activation>
+                <property>
+                    <name>generateAggregateJavadoc</name>
+                    <value>true</value>
+                </property>
+            </activation>
+
+            <build>
+                <plugins>
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-javadoc-plugin</artifactId>
+                        <configuration>
+
+                            <additionalOptions>
+                                <additionalOption>-Xdoclint:none</additionalOption>
+                            </additionalOptions>
+                            <failOnError>false</failOnError>
+                            <stylesheetfile>site-resources/styles-new.css</stylesheetfile>
+                            <top>
+                                <![CDATA[<h2><a href='https://chenile.org'>Chenile Framework Javadocs</a></h2>]]>
+                            </top>
+                            <bottom>
+                                <![CDATA[Generated from Source. <a href="https://chenile.org">Chenile<a>]]>
+                            </bottom>
+                            <includeDependencySources>true</includeDependencySources>
+                            <dependencySourceIncludes>
+                                <!-- include ONLY CHENILE dependencies -->
+                                <dependencySourceInclude>org.chenile:*</dependencySourceInclude>
+                            </dependencySourceIncludes>
+
+                            <links>
+                                <link>
+                                    https://docs.spring.io/spring-framework/docs/current/javadoc-api/
+                                </link>
+                                <link>
+                                    https://jakarta.ee/specifications/platform/9/apidocs/
+                                </link>
+                                <link>
+                                    https://javadoc.io/doc/com.fasterxml.jackson.core/jackson-databind/2.3.1/
+                                </link>
+                                <link>
+                                    https://javadoc.io/doc/org.apache.maven/maven-core/latest/
+                                </link>
+                            </links>
+                            <show>private</show>
+                            <groups>
+                                <group>
+                                    <title>Core Packages</title>
+                                    <packages>
+                                        org.chenile.base*:org.chenile.core*:org.chenile.http*:org.chenile.proxy*:org.chenile.configuration.core:org.chenile.configuration.proxy:org.chenile.configuration.http:org.chenile.configuration.controller
+                                    </packages>
+                                </group>
+                                <group>
+                                    <title>MQTT</title>
+                                    <packages>
+                                        org.chenile.mqtt*:org.chenile.cloudedgeswitch*:org.chenile.configuration.mqtt:org.chenile.configuration.cloudedgeswitch
+                                    </packages>
+                                </group>
+                                <group>
+                                    <title>STM/OWIZ/Workflow</title>
+                                    <packages>
+                                        org.chenile.owiz*:org.chenile.stm*:org.chenile.ognl:org.chenile.workflow*:org.chenile.configuration.workflow
+                                    </packages>
+                                </group>
+                                <group>
+                                    <title>Testing</title>
+                                    <packages>
+                                        org.chenile.cucumber*:org.chenile.testutils*:org.chenile.security.test
+                                    </packages>
+                                </group>
+                                <group>
+                                    <title>Query</title>
+                                    <packages>org.chenile.query*:org.chenile.configuration.query.service
+                                    </packages>
+                                </group>
+                                <group>
+                                    <title>Others</title>
+                                    <packages>org.chenile.*:org.chenile.configuration.*</packages>
+                                </group>
+                            </groups>
                         </configuration>
                     </plugin>
                 </plugins>
