@@ -20,8 +20,8 @@
         <java.version>17</java.version>
         <!-- Standardized versions of all Chenile dependencies -->
         <revision>${chenile.parent.version}</revision>
-        <chenile.parent.version>2.0.9</chenile.parent.version>
-        <chenile.core.version>2.0.9</chenile.core.version>
+        <chenile.parent.version>2.0.10</chenile.parent.version>
+        <chenile.core.version>2.0.10</chenile.core.version>
         <chenile.others.version>2.0.3</chenile.others.version>
         <chenile.mqtt.version>2.0.3</chenile.mqtt.version>
         <chenile.bdd.version>2.0.3</chenile.bdd.version>
@@ -155,6 +155,12 @@
             <dependency>
                 <groupId>org.chenile</groupId>
                 <artifactId>owiz</artifactId>
+                <version>${chenile.core.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.chenile</groupId>
+                <artifactId>stm-generate-puml</artifactId>
                 <version>${chenile.core.version}</version>
             </dependency>
 
