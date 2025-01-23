@@ -20,13 +20,13 @@
         <java.version>17</java.version>
         <!-- Standardized versions of all Chenile dependencies -->
         <revision>${chenile.parent.version}</revision>
-        <chenile.parent.version>2.0.11</chenile.parent.version>
-        <chenile.core.version>2.0.11</chenile.core.version>
+        <chenile.parent.version>2.0.12</chenile.parent.version>
+        <chenile.core.version>2.0.12</chenile.core.version>
         <chenile.others.version>2.0.3</chenile.others.version>
         <chenile.mqtt.version>2.0.3</chenile.mqtt.version>
         <chenile.bdd.version>2.0.3</chenile.bdd.version>
         <chenile.security.version>2.0.3</chenile.security.version>
-        <chenile.query.workflow.blueprints.version>2.0.11</chenile.query.workflow.blueprints.version>
+        <chenile.query.workflow.blueprints.version>2.0.12</chenile.query.workflow.blueprints.version>
 
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <cucumber.version>4.3.1</cucumber.version>
@@ -155,9 +155,9 @@
 
             <dependency>
                 <groupId>org.chenile</groupId>
-                <artifactId>stm</artifactId>
+                <artifactId>workflow-utils</artifactId>
                 <classifier>jar-with-dependencies</classifier>
-                <version>${chenile.core.version}</version>
+                <version>${chenile.query.workflow.blueprints.version}</version>
             </dependency>
 
             <dependency>
@@ -169,7 +169,7 @@
             <dependency>
                 <groupId>org.chenile</groupId>
                 <artifactId>stm-generate-puml</artifactId>
-                <version>${chenile.core.version}</version>
+                <version>${chenile.query.workflow.blueprints.version}</version>
             </dependency>
 
             <dependency>
@@ -187,6 +187,12 @@
             <dependency>
                 <groupId>org.chenile</groupId>
                 <artifactId>workflow-service</artifactId>
+                <version>${chenile.query.workflow.blueprints.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.chenile</groupId>
+                <artifactId>workflow-utils</artifactId>
                 <version>${chenile.query.workflow.blueprints.version}</version>
             </dependency>
 
