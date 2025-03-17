@@ -20,13 +20,13 @@
         <java.version>17</java.version>
         <!-- Standardized versions of all Chenile dependencies -->
         <revision>${chenile.parent.version}</revision>
-        <chenile.parent.version>2.0.15</chenile.parent.version>
-        <chenile.core.version>2.0.14</chenile.core.version>
+        <chenile.parent.version>2.0.16</chenile.parent.version>
+        <chenile.core.version>2.0.16</chenile.core.version>
         <chenile.others.version>2.0.3</chenile.others.version>
         <chenile.mqtt.version>2.0.3</chenile.mqtt.version>
         <chenile.bdd.version>2.0.3</chenile.bdd.version>
         <chenile.security.version>2.0.14</chenile.security.version>
-        <chenile.query.workflow.blueprints.version>2.0.15</chenile.query.workflow.blueprints.version>
+        <chenile.query.workflow.blueprints.version>2.0.16</chenile.query.workflow.blueprints.version>
 
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <cucumber.version>4.3.1</cucumber.version>
