@@ -52,7 +52,7 @@ prepare-deploy:
 ## deploy: Deploys the  chenile jars into Sonatype Maven central. Set passphrase to the correct secret key
 .PHONY: deploy
 deploy:
-	mvn  -B -DskipTests -Drevision=$(version) -DperformRelease=true -Dgpg.passphrase="${passphrase}" deploy
+	mvn  -B -DskipTests -Drevision=$(version) -DperformRelease=true  deploy
 
 ## only-deploy: Deploys the  chenile jars into Sonatype Maven central. Set passphrase to the correct secret key. Assumes GPG,source,javadoc are all done
 .PHONY: only-deploy
