@@ -7,6 +7,7 @@
     <groupId>org.chenile</groupId>
     <artifactId>chenile-parent</artifactId>
     <version>${revision}</version>
+		<name>Chenile Super Parent</name>
 
     <packaging>pom</packaging>
 
