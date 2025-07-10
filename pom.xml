@@ -21,7 +21,8 @@
         <java.version>17</java.version>
         <!-- Standardized versions of all Chenile dependencies -->
         <revision>${chenile.parent.version}</revision>
-        <chenile.parent.version>2.0.27</chenile.parent.version>
+        <chenile.parent.version>2.0.28</chenile.parent.version>
+				<chenile.process.management>2.0.28</chenile.process.management>
         <chenile.core.version>2.0.27</chenile.core.version>
         <chenile.others.version>2.0.17</chenile.others.version>
         <chenile.mqtt.version>2.0.18</chenile.mqtt.version>
@@ -51,6 +52,16 @@
     </licenses>
     <dependencyManagement>
         <dependencies>
+						<dependency>
+							<groupId>org.chenile.orchestrator.process</groupId>
+							<version>${chenile.process.management}</version>
+							<artifactId>process-service</artifactId>
+						</dependency>
+						<dependency>
+							<groupId>org.chenile.orchestrator.process</groupId>
+							<version>${chenile.process.management}</version>
+							<artifactId>process-api</artifactId>
+						</dependency>
             <dependency>
                 <groupId>org.chenile</groupId>
                 <artifactId>chenile-filewatch</artifactId>
