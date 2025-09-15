@@ -20,10 +20,10 @@
     <properties>
         <java.version>17</java.version>
         <!-- Standardized versions of all Chenile dependencies -->
-        <chenile.parent.version>2.0.40</chenile.parent.version>
+        <chenile.parent.version>2.0.41</chenile.parent.version>
         <chenile.process.management>2.0.40</chenile.process.management>
         <chenile.service.registry.version>2.0.37</chenile.service.registry.version>
-        <chenile.core.version>2.0.37</chenile.core.version>
+        <chenile.core.version>2.0.41</chenile.core.version>
         <chenile.proxies.version>2.0.37</chenile.proxies.version>
         <chenile.others.version>2.0.17</chenile.others.version>
         <chenile.messaging.version>2.0.39</chenile.messaging.version>
