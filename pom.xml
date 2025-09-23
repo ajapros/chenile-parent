@@ -20,16 +20,16 @@
     <properties>
         <java.version>17</java.version>
         <!-- Standardized versions of all Chenile dependencies -->
-        <chenile.parent.version>2.1.1</chenile.parent.version>
-        <chenile.process.management>2.1.1</chenile.process.management>
-        <chenile.service.registry.version>2.1.1</chenile.service.registry.version>
-        <chenile.core.version>2.1.1</chenile.core.version>
-        <chenile.proxies.version>2.1.1</chenile.proxies.version>
-        <chenile.others.version>2.1.1</chenile.others.version>
-        <chenile.messaging.version>2.1.1</chenile.messaging.version>
-        <chenile.bdd.version>2.1.1</chenile.bdd.version>
-        <chenile.security.version>2.1.1</chenile.security.version>
-        <chenile.query.workflow.blueprints.version>2.1.1</chenile.query.workflow.blueprints.version>
+        <chenile.parent.version>2.1.2</chenile.parent.version>
+        <chenile.process.management>2.1.2</chenile.process.management>
+        <chenile.service.registry.version>2.1.2</chenile.service.registry.version>
+        <chenile.core.version>2.1.2</chenile.core.version>
+        <chenile.proxies.version>2.1.2</chenile.proxies.version>
+        <chenile.others.version>2.1.2</chenile.others.version>
+        <chenile.messaging.version>2.1.2</chenile.messaging.version>
+        <chenile.bdd.version>2.1.2</chenile.bdd.version>
+        <chenile.security.version>2.1.2</chenile.security.version>
+        <chenile.query.workflow.blueprints.version>2.1.2</chenile.query.workflow.blueprints.version>
         <revision>${chenile.parent.version}</revision>
 
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -285,6 +285,11 @@
 
 
             <!-- Third Party Libraries -->
+            <dependency>
+                <groupId>org.apache.httpcomponents.client5</groupId>
+                <artifactId>httpclient5</artifactId>
+                <version>${httpclient5.version}</version>
+            </dependency>
             <dependency>
                 <groupId>commons-lang</groupId>
                 <artifactId>commons-lang</artifactId>
