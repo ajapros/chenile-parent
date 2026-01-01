@@ -24,6 +24,7 @@
         <chenile.process.management>2.1.8</chenile.process.management>
         <chenile.service.registry.version>2.1.8</chenile.service.registry.version>
         <chenile.core.version>2.1.8</chenile.core.version>
+        <chenile.config.version>2.1.8</chenile.config.version>
         <chenile.proxies.version>2.1.8</chenile.proxies.version>
         <chenile.others.version>2.1.8</chenile.others.version>
         <chenile.messaging.version>2.1.8</chenile.messaging.version>
@@ -45,6 +46,7 @@
         <wire.mock.version>3.5.2</wire.mock.version>
         <maven.gpg.version>3.2.8</maven.gpg.version>
         <rest.assured.version>6.0.0</rest.assured.version>
+        <httpclient5.version>5.6</httpclient5.version>
     </properties>
     <licenses>
         <license>
@@ -98,6 +100,16 @@
                 <groupId>org.chenile.orchestrator.process</groupId>
                 <version>${chenile.process.management}</version>
                 <artifactId>process-api</artifactId>
+            </dependency>
+            <dependency>
+                <groupId>org.chenile.cconfig</groupId>
+                <version>${chenile.config.version}</version>
+                <artifactId>cconfig-api</artifactId>
+            </dependency>
+            <dependency>
+                <groupId>org.chenile.cconfig</groupId>
+                <version>${chenile.config.version}</version>
+                <artifactId>cconfig-service</artifactId>
             </dependency>
             <dependency>
                 <groupId>org.chenile</groupId>
