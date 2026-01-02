@@ -46,7 +46,7 @@
         <wire.mock.version>3.5.2</wire.mock.version>
         <maven.gpg.version>3.2.8</maven.gpg.version>
         <rest.assured.version>6.0.0</rest.assured.version>
-        <httpclient5.version>5.6</httpclient5.version>
+        <httpclient5.version>5.5</httpclient5.version>
     </properties>
     <licenses>
         <license>
