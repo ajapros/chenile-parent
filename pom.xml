@@ -37,7 +37,7 @@
         <cucumber.version>7.33.0</cucumber.version>
         <jacoco.version>0.8.14</jacoco.version>
         <chenile.version>${revision}</chenile.version>
-        <springdoc.version>3.0.0</springdoc.version>
+        <springdoc.version>3.0.1</springdoc.version>
         <hazelcast.version>5.6.0</hazelcast.version>
         <mybatis.spring.version>4.0.0</mybatis.spring.version>
         <spring-boot.version>4.0.1</spring-boot.version>
