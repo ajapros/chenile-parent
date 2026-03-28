@@ -104,12 +104,12 @@
             <dependency>
                 <groupId>org.chenile.cconfig</groupId>
                 <version>${chenile.config.version}</version>
-                <artifactId>cconfig-api</artifactId>
+                <artifactId>chenile-config</artifactId>
             </dependency>
             <dependency>
                 <groupId>org.chenile.cconfig</groupId>
                 <version>${chenile.config.version}</version>
-                <artifactId>cconfig-service</artifactId>
+                <artifactId>cconfig-db</artifactId>
             </dependency>
             <dependency>
                 <groupId>org.chenile</groupId>
