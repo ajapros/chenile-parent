@@ -20,17 +20,17 @@
     <properties>
         <java.version>25</java.version>
         <!-- Standardized versions of all Chenile dependencies -->
-        <chenile.parent.version>2.1.18</chenile.parent.version>
-        <chenile.process.management>2.1.18</chenile.process.management>
-        <chenile.service.registry.version>2.1.18</chenile.service.registry.version>
-        <chenile.core.version>2.1.18</chenile.core.version>
-        <chenile.config.version>2.1.18</chenile.config.version>
-        <chenile.proxies.version>2.1.18</chenile.proxies.version>
-        <chenile.others.version>2.1.18</chenile.others.version>
-        <chenile.messaging.version>2.1.18</chenile.messaging.version>
-        <chenile.bdd.version>2.1.18</chenile.bdd.version>
-        <chenile.security.version>2.1.18</chenile.security.version>
-        <chenile.query.workflow.blueprints.version>2.1.18</chenile.query.workflow.blueprints.version>
+        <chenile.parent.version>2.1.19</chenile.parent.version>
+        <chenile.process.management>2.1.19</chenile.process.management>
+        <chenile.service.registry.version>2.1.19</chenile.service.registry.version>
+        <chenile.core.version>2.1.19</chenile.core.version>
+        <chenile.config.version>2.1.19</chenile.config.version>
+        <chenile.proxies.version>2.1.19</chenile.proxies.version>
+        <chenile.others.version>2.1.19</chenile.others.version>
+        <chenile.messaging.version>2.1.19</chenile.messaging.version>
+        <chenile.bdd.version>2.1.19</chenile.bdd.version>
+        <chenile.security.version>2.1.19</chenile.security.version>
+        <chenile.query.workflow.blueprints.version>2.1.19</chenile.query.workflow.blueprints.version>
         <revision>${chenile.parent.version}</revision>
 
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
