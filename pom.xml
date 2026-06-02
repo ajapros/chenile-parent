@@ -238,6 +238,12 @@
 
             <dependency>
                 <groupId>org.chenile</groupId>
+                <artifactId>workflow-info</artifactId>
+                <version>${chenile.query.workflow.blueprints.version}</version>
+            </dependency>
+						
+            <dependency>
+                <groupId>org.chenile</groupId>
                 <artifactId>owiz</artifactId>
                 <version>${chenile.core.version}</version>
             </dependency>
