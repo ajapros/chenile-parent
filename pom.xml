@@ -183,6 +183,12 @@
             </dependency>
             <dependency>
                 <groupId>org.chenile</groupId>
+                <artifactId>chenile-admin-ui</artifactId>
+                <version>${chenile.core.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.chenile</groupId>
                 <artifactId>chenile-base</artifactId>
                 <version>${chenile.core.version}</version>
             </dependency>
