@@ -162,6 +162,36 @@
                 <version>${chenile.security.version}</version>
             </dependency>
             <dependency>
+                <groupId>org.chenile</groupId>
+                <artifactId>chenile-security-auth-core</artifactId>
+                <version>${chenile.security.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.chenile</groupId>
+                <artifactId>chenile-security-auth-server</artifactId>
+                <version>${chenile.security.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.chenile</groupId>
+                <artifactId>chenile-security-gateway</artifactId>
+                <version>${chenile.security.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.chenile</groupId>
+                <artifactId>chenile-security-starter-auth-server</artifactId>
+                <version>${chenile.security.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.chenile</groupId>
+                <artifactId>chenile-security-starter-gateway</artifactId>
+                <version>${chenile.security.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.chenile</groupId>
+                <artifactId>chenile-security-starter-resource-server</artifactId>
+                <version>${chenile.security.version}</version>
+            </dependency>
+            <dependency>
                 <groupId>org.chenile.bdd</groupId>
                 <artifactId>it-cucumber-utils</artifactId>
                 <version>${chenile.bdd.version}</version>
