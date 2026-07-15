@@ -14,7 +14,7 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>4.0.6</version>
+        <version>4.1.0</version>
     </parent>
 
     <properties>
@@ -80,6 +80,11 @@
                 <groupId>org.chenile.orchestrator.process</groupId>
                 <version>${chenile.process.management}</version>
                 <artifactId>process-delegate</artifactId>
+            </dependency>
+            <dependency>
+                <groupId>org.chenile.orchestrator.process</groupId>
+                <version>${chenile.process.management}</version>
+                <artifactId>jdbc-process-starter</artifactId>
             </dependency>
             <dependency>
                 <groupId>org.chenile.orchestrator.process</groupId>
