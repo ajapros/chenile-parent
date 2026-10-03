@@ -107,6 +107,16 @@
                 <artifactId>process-api</artifactId>
             </dependency>
             <dependency>
+                <groupId>org.chenile.orchestrator.process</groupId>
+                <version>${chenile.process.management}</version>
+                <artifactId>chenile-logger</artifactId>
+            </dependency>
+            <dependency>
+                <groupId>org.chenile.orchestrator.process</groupId>
+                <version>${chenile.process.management}</version>
+                <artifactId>chenile-trigger</artifactId>
+            </dependency>
+            <dependency>
                 <groupId>org.chenile.cconfig</groupId>
                 <version>${chenile.config.version}</version>
                 <artifactId>chenile-config</artifactId>
