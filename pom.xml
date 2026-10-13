@@ -20,17 +20,17 @@
     <properties>
         <java.version>25</java.version>
         <!-- Standardized versions of all Chenile dependencies -->
-        <chenile.parent.version>2.1.31</chenile.parent.version>
-        <chenile.process.management>2.1.31</chenile.process.management>
-        <chenile.service.registry.version>2.1.31</chenile.service.registry.version>
-        <chenile.core.version>2.1.31</chenile.core.version>
-        <chenile.config.version>2.1.31</chenile.config.version>
-        <chenile.proxies.version>2.1.31</chenile.proxies.version>
-        <chenile.others.version>2.1.31</chenile.others.version>
-        <chenile.messaging.version>2.1.31</chenile.messaging.version>
-        <chenile.bdd.version>2.1.31</chenile.bdd.version>
-        <chenile.security.version>2.1.31</chenile.security.version>
-        <chenile.query.workflow.blueprints.version>2.1.31</chenile.query.workflow.blueprints.version>
+        <chenile.parent.version>2.1.32</chenile.parent.version>
+        <chenile.process.management>2.1.32</chenile.process.management>
+        <chenile.service.registry.version>2.1.32</chenile.service.registry.version>
+        <chenile.core.version>2.1.32</chenile.core.version>
+        <chenile.config.version>2.1.32</chenile.config.version>
+        <chenile.proxies.version>2.1.32</chenile.proxies.version>
+        <chenile.others.version>2.1.32</chenile.others.version>
+        <chenile.messaging.version>2.1.32</chenile.messaging.version>
+        <chenile.bdd.version>2.1.32</chenile.bdd.version>
+        <chenile.security.version>2.1.32</chenile.security.version>
+        <chenile.query.workflow.blueprints.version>2.1.32</chenile.query.workflow.blueprints.version>
         <revision>${chenile.parent.version}</revision>
 
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -109,7 +109,17 @@
             <dependency>
                 <groupId>org.chenile.orchestrator.process</groupId>
                 <version>${chenile.process.management}</version>
-                <artifactId>chenile-trigger</artifactId>
+                <artifactId>trigger-api</artifactId>
+            </dependency>
+            <dependency>
+                <groupId>org.chenile.orchestrator.process</groupId>
+                <version>${chenile.process.management}</version>
+                <artifactId>trigger-service</artifactId>
+            </dependency>
+            <dependency>
+                <groupId>org.chenile.orchestrator.process</groupId>
+                <version>${chenile.process.management}</version>
+                <artifactId>crontab-trigger</artifactId>
             </dependency>
             <dependency>
                 <groupId>org.chenile.cconfig</groupId>
