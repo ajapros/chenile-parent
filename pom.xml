@@ -88,11 +88,6 @@
             </dependency>
             <dependency>
                 <groupId>org.chenile.orchestrator.process</groupId>
-                <artifactId>process-utils</artifactId>
-                <version>${chenile.process.management}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.chenile.orchestrator.process</groupId>
                 <artifactId>q-based-process-starter</artifactId>
                 <version>${chenile.process.management}</version>
             </dependency>
