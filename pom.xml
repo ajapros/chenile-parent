@@ -138,6 +138,11 @@
             </dependency>
             <dependency>
                 <groupId>org.chenile</groupId>
+                <artifactId>chenile-trigger</artifactId>
+                <version>${chenile.core.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.chenile</groupId>
                 <artifactId>chenile-filewatch</artifactId>
                 <version>${chenile.others.version}</version>
             </dependency>
